@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">FirstKotlin1</string>
+    <string name="app_name">FirstKotlin</string>
+
+    <string name="login_email_caption_error_format">Maaf format email kamu salah</string>
+    <string name="login_email_caption_error_less_more">Maaf emailmu kurang lengkap</string>
+    <string name="login_password_caption_error_less">Password tidak boleh kurang dari 5</string>
+    <string name="login_caption_empty_field">Jangan Kosongkan isian</string>
 </resources>

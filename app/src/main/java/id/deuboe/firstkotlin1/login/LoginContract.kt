@@ -4,19 +4,23 @@ class LoginContract {
 
     interface View{
 
-        fun showError()
+        fun showErrorEmail()
 
-        fun hideError()
+        fun hideErrorEmail()
+
+        fun showErrorPassword()
+
+        fun hideErrorPassword()
 
         fun openDashboardPage()
     }
 
     interface Presenter{
 
-        fun validateEmail()
+        fun validateEmail(email: String)
 
-        fun validatePassword()
+        fun validatePassword(password: String)
 
-        fun validateLogin()
+        fun validateLogin(email: String, password: String)
     }
 }
